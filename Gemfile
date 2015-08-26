@@ -35,6 +35,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 3.5.2'
 
+# Twitter's Bootstrap, converted to Sass and ready to drop into Rails or Compass
+gem 'bootstrap-sass', '~> 3.3.5.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
